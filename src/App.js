@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      <h1>Hello Bob!</h1>
+      <h1>Hello John Doe!</h1>
     </div>
   );
 };
