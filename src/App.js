@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from './Header';
+
 import './App.css';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello John Doe!</h1>
+      <Header />
+      <hr />
+      <h2>Hello John Doe!</h2>
     </div>
   );
 };
