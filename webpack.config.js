@@ -3,6 +3,9 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
+  output: {
+    filename: '[name].[contenthash].js',
+  },
   devServer: {
     port: 5000,
     historyApiFallback: {
